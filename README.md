@@ -4,98 +4,132 @@
 
 ### AI Researcher · LLM Systems · High-Performance Computing
 
-Currently an **Artificial Intelligence Resident at Qualcomm**  
-and conducting research at the **High Performance Computing Laboratory (HPC Lab), VNU University of Engineering and Technology**.
+**Artificial Intelligence Resident @ Qualcomm**
+**Researcher @ High Performance Computing Laboratory (HPC Lab), VNU-UET**
 
-<br>
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/YOUR_USERNAME)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+My work focuses on building **efficient and scalable systems for Large Language Models**, with interests spanning distributed inference, retrieval-augmented generation, and Mixture-of-Experts optimization.
 
 </div>
 
 ---
 
-## About Me
+## 🔬 Current Research
 
-I am interested in **Large Language Model Systems**, **High-Performance Computing**, and **efficient distributed inference**.
+### 🚀 MorpheusServe — Dynamic LLM Serving
 
-My current research focuses on improving the efficiency of LLM serving through dynamic parallelism, distributed execution, and GPU-aware system optimization.
+Researching **dynamic parallelism for multi-GPU LLM inference**, with a focus on runtime topology adaptation between:
 
-- 🧠 **AI Resident @ Qualcomm**
-- 🔬 **Researcher @ HPC Lab, VNU-UET**
-- ⚡ LLM Serving & Distributed Inference
-- 🚀 Tensor Parallelism · Data Parallelism · Dynamic Topology
-- 🖥️ GPU Systems · CUDA · PyTorch · vLLM
+**Tensor Parallelism (TP) ↔ Data Parallelism (DP)**
+
+Current topics include:
+
+* Dynamic TP ↔ DP topology morphing
+* Runtime reconfiguration with minimal switching overhead
+* KV-cache preservation across topology changes
+* Adaptive serving under dynamic and bursty workloads
+* Latency-throughput optimization
+* Multi-GPU inference and GPU-aware scheduling
+* Efficient LLM serving with **vLLM**
 
 ---
 
-## Current Research
+### 🧠 Mixture-of-Experts Systems
 
-### MorpheusServe
+Researching **expert prediction and GPU-constrained expert offloading for Mixture-of-Experts (MoE) models**.
 
-**Dynamic TP ↔ DP Topology Morphing for Efficient LLM Serving**
-
-MorpheusServe explores runtime switching between **Tensor Parallelism (TP)** and **Data Parallelism (DP)** to adapt LLM inference systems to dynamic workloads.
+The goal is to predict which experts will be activated before execution and use this information to improve expert placement and offloading decisions when GPU memory is limited.
 
 Research topics include:
 
-- Dynamic TP ↔ DP topology switching
-- Low-overhead runtime reconfiguration
-- KV-cache preservation
-- LLM serving under bursty workloads
-- Throughput / latency trade-offs
-- Multi-GPU inference optimization
+* MoE expert activation prediction
+* Expert access-pattern modeling
+* GPU-constrained expert placement
+* CPU ↔ GPU expert offloading
+* Expert prefetching
+* Reducing expert-loading latency
+* Memory-efficient MoE inference
+* GPU utilization optimization
 
 ---
 
-## Research Interests
+### 🔎 Retrieval-Augmented Generation
 
-`LLM Systems` · `Distributed Systems` · `High-Performance Computing`  
-`GPU Computing` · `Efficient Inference` · `Parallel Computing`  
-`CUDA` · `PyTorch` · `vLLM`
+Building and researching **Retrieval-Augmented Generation (RAG)** systems for knowledge-intensive LLM applications.
 
----
+Areas of interest include:
 
-## Selected Projects
-
-### 🚀 MorpheusServe
-Dynamic parallelism for efficient multi-GPU LLM serving.
-
-### 🔗 BiSchemaLink
-Bi-directional schema linking for Text-to-SQL systems.
-
-### ⚡ Optimize Page Attention
-Research and optimization of attention mechanisms for efficient LLM inference.
+* Document retrieval
+* Embedding-based search
+* Vector databases
+* Retrieval pipelines
+* Context construction and ranking
+* LLM grounding
+* Efficient RAG inference
+* Domain-specific knowledge systems
 
 ---
 
-## Tech Stack
+## 🧩 Research Interests
 
-**Languages**
+`LLM Systems` · `High-Performance Computing` · `Distributed Systems`
 
-`Python` `C++` `SQL` `Bash`
+`LLM Serving` · `Mixture-of-Experts` · `Retrieval-Augmented Generation`
 
-**AI / Systems**
+`GPU Computing` · `Efficient Inference` · `Parallel Computing`
 
-`PyTorch` `CUDA` `vLLM` `Transformers`
-
-**Infrastructure**
-
-`Linux` `Docker` `Git` `NVIDIA GPUs`
+`Model Offloading` · `Scheduling` · `CUDA` · `vLLM`
 
 ---
 
-## GitHub Activity
+## 🛠 Technical Stack
+
+### Languages
+
+`Python` · `C++` · `SQL` · `Bash`
+
+### AI & LLM Systems
+
+`PyTorch` · `Transformers` · `vLLM` · `RAG` · `MoE`
+
+### GPU & HPC
+
+`CUDA` · `NVIDIA GPUs` · `Tensor Parallelism` · `Data Parallelism`
+
+### Infrastructure
+
+`Linux` · `Docker` · `Git`
+
+---
+
+## ⚡ What I'm Currently Working On
+
+```text
+LLM Serving
+├── Dynamic TP ↔ DP topology morphing
+├── Multi-GPU scheduling
+├── KV-cache preservation
+└── Workload-aware parallelism
+
+Mixture-of-Experts
+├── Expert prediction
+├── Expert prefetching
+├── GPU-constrained placement
+└── CPU ↔ GPU expert offloading
+
+Retrieval-Augmented Generation
+├── Retrieval pipelines
+├── Vector search
+├── Context construction
+└── LLM grounding
+```
+
+---
+
+## 📊 GitHub Activity
 
 <p align="center">
   <img height="165"
        src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&theme=github_dark" />
-  <img height="165"
-       src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&hide_border=true&theme=github_dark" />
 </p>
 
 ---
@@ -103,5 +137,7 @@ Research and optimization of attention mechanisms for efficient LLM inference.
 <div align="center">
 
 ### Building efficient systems for large-scale AI.
+
+**LLM Systems · HPC · MoE · RAG · Distributed Inference**
 
 </div>
