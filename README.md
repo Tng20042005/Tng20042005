@@ -1,16 +1,43 @@
-## Hi there 👋
+<h1 align="center">Hi 👋, I'm Tung</h1>
 
-<!--
-**Tng20042005/Tng20042005** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h3 align="center">
+AI Researcher | LLM Systems | Efficient Inference
+</h3>
 
-Here are some ideas to get you started:
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME" />
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 👨‍💻 About Me
+
+- 🔬 Interested in **LLM Systems & Efficient Inference**
+- 🚀 Working on **MorpheusServe**
+- 🧠 Exploring **Tensor Parallelism, Data Parallelism & Dynamic Serving**
+- ⚡ Working with **vLLM, PyTorch, CUDA**
+
+## 🛠 Tech Stack
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,pytorch,cpp,linux,git,docker" />
+</p>
+
+## 🔬 Featured Research
+
+### 🚀 MorpheusServe
+Dynamic TP ↔ DP topology morphing for efficient LLM serving.
+
+### 🧠 BiSchemaLink
+Bi-directional schema linking for Text-to-SQL.
+
+### 🔍 Graph Intelligence
+Graph-based security and attack-path analysis.
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=github-dark-blue" />
+</p>
