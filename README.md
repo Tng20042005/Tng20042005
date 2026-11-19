@@ -133,7 +133,7 @@ Retrieval-Augmented Generation
 
 <p align="center">
   <img height="165"
-       src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&theme=github_dark" />
+       src="https://github-readme-stats.vercel.app/api?username=Tng20042005&show_icons=true&hide_border=true&theme=github_dark" />
 </p>
 
 ---
