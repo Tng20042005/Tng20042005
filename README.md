@@ -4,8 +4,12 @@
 
 ### AI Researcher · LLM Systems · High-Performance Computing
 
-**Artificial Intelligence Resident @ Qualcomm**
+**Artificial Intelligence Resident @ Qualcomm**  
 **Researcher @ High Performance Computing Laboratory (HPC Lab), VNU-UET**
+
+📧 **Email:** [maiminhtung2005@gmail.com](mailto:maiminhtung2005@gmail.com)
+
+</div>
 
 My work focuses on building **efficient and scalable systems for Large Language Models**, with interests spanning distributed inference, retrieval-augmented generation, and Mixture-of-Experts optimization.
 
